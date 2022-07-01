@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", sans sarif;
+  }
+  
+  .header {
+    
+   background-color: #283593;
+    padding: 0 45px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav a {
+    
+    color: #fff;
+    text-decoration: none;
+    display: block; 
+    transition: all 0.3s  ease-out;
+  }
+  
+  
+  .nav a:hover {
+    color: #c5cae9;
+    transform: rotate(5deg);
+  }
+  
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  .nav li { 
+  padding-left: 20px;
+  
+  }
+
+  .nhero {
+    background-color: #c5cae9;
+    margin: 0;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+     
+    
+  }
+  
+  .nhero-inner {
+    max-width: 600px;
+  }
+  
+  .nhero h1 {
+    font-weight: normal;
+    font-size: 4em;
+    margin: 0;
+  }
+  
+  .nhero p {
+    font-size: 1.18em;
+    line-height: 1.6;
+  }
